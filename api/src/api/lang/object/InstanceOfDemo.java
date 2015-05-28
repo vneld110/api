@@ -17,7 +17,7 @@ public class InstanceOfDemo {
 	}
 	public void doWork(Car c){
 		/*
-		 소방차가 Car 타입인지 확인 후
+		 파라미터로 넘어온 C가  FireCar 타입인지 확인 후
 		 맞다면 (FireCar)로 객체 캐스팅을 한다.
 		 */
 		if(c instanceof FireCar){
@@ -26,7 +26,7 @@ public class InstanceOfDemo {
 			f.stop();
 			f.shootWater();
 		/*
-		 엠블런스가 Car 타입인지 확인 후
+		 파라미터로 넘어온 C가 Ambulance 타입인지 확인 후
 		 맞다면 (Amblulance)로 객체 캐스팅을 한다.
 		 */
 		}else if(c instanceof Amblulance){
